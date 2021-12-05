@@ -16,5 +16,12 @@ $(document).ready(function(){
         useCSS: false,
         prevArrow:`<button type='button' class='slick-prev arrows'><ion-icon name="arrow-back-circle-outline"></ion-icon></button>`,
         nextArrow:`<button type='button' class='slick-next arrows'><ion-icon name="arrow-forward-circle-outline"></ion-icon></button>`,
+        responsive: [{
+            breakpoint: 740,
+            settings: {
+                infinite: false,
+                arrows: false,
+            }
+        }]
     });
 });
